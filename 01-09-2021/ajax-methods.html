@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(document).ajaxSend(function(){
+                    $("div").append("<p>Requesting " + opt.url + "</p>");
+                });
+                $("button").click(function(){
+                    $("div").load("demo_ajax_load.asp");
+                });
+            });
+
+        </script>
+    </head>
+    <body>
+        <div><h2>Let Ajax changes this text</h2></div>
+        <button>Change Content</button>
+    </body>
+</html>

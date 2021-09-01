@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "name":"Madhya Pardesh",
+        "parent_id":"0"
+    },
+    {
+        "id":"2",
+        "name":"Gujrat",
+        "parent_id":"0"
+    },
+    {
+        "id":"3",
+        "name":"Burhanpur",
+        "parent_id":"1"
+    },
+    {
+        "id":"4",
+        "name":"Gwalior",
+        "parent_id":"1"
+    },
+    {
+        "id":"5",
+        "name":"Ahmedabad",
+        "parent_id":"2"
+    },
+    {
+        "id":"6",
+        "name":"Surat",
+        "parent_id":"2"
+    }
+]
